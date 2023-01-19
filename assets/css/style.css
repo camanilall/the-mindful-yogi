@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Merriweather&display=swap');;
 
 * {
     margin:0;
@@ -7,33 +7,34 @@
  }
  
  body {
-     font-family: Poppins, sans-serif;
+     font-family: Merriweather, sans-serif;
      font-weight: 200;
      color: #334a52;
  }
 
  #header{
-    font-family: Jost, sans-serif;
+    font-family: Lora, sans-serif;
     font-weight: 400;
     
  }
 
  #header a{
     text-decoration :none;
-    color: #87aecb;
+    color: #ff8889;
  }
  
- #logo{
+ #logo img{
     margin: 30px;
     float: left;
-    font-size: 150%;
+    width: 15%;
+    height: 150px;
  }
 
 #homepage-headers{
     margin: 30px;
     font-size: 150%;
     list-style: none;
-    line-height: 50px;
+    line-height: 150px;
     float: right;
     margin-right: 60px;
     word-spacing: 20px;
@@ -47,13 +48,26 @@
 #mindful-yogi-explanation{
    float: left;
    text-align: center;
-   padding: 100px;
-   background-image: url('../assets/images/clouds_pexels.jpg') no-repeat;
-   /* NEED TO CHECK WHY NOT WORKING */
+   padding: 50px;
+   background-image: url('../images/clouds_pexels.jpg') no-repeat;
+   background-size: cover;
+   
 }
 
-#meditation-and-yoga {
-    position: static ;
-    padding: 400px;
+#meditation-and-yoga div {
     text-align: center;
+    float: left;
+    padding: 50px;
+
+}
+
+
+#meditation-and-yoga h2{
+    background-color: #faf2ed;
+}
+
+#yoga-explanation {
+    float: left;
+    width: 50%;
+    padding: 0px;
 }
